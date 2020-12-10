@@ -11,7 +11,7 @@ class App extends React.Component {
     render() {
         return(
             <div>
-                React is working hi 
+                React is working hi v2
             </div>
         )
     }

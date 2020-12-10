@@ -42,7 +42,6 @@ class App extends React.Component {
     render() {
       return(
       <div>
-      <img src="grocery-bags.png"/>
       <h1>Grocery List</h1>
           <GroceryList groceries = {this.state.groceries} count={[3, 4]}/>
       <form  onSubmit={this.handleSubmit}>
